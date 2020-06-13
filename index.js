@@ -25,10 +25,12 @@ bot.on('message', msg => {
     switch(args[0]){
         case 'help':
 
-            const helpEmbed = new RichEmbed()
+            var helpEmbed = new Discord.MessageEmbed()
             .setColor('RANDOM')
             .setTitle('Ascension Help')
             .addField('Music', '!play (with yt link), !skip , !stop');
+
+            msg.reply(helpEmbed);
 
     }
 
@@ -88,18 +90,8 @@ bot.on('message', msg => {
 
         
         break;
-        case 'queue':
 
-            const queueEmbed = new RichEmbed()
-            .setColor(0xFFC300)
-            .setTitle("Music Queue")
-            .addField('⬇️ Queue ⬇️', server.queue);
 
-            msg.channel.send(queueEmbed)
-
-            score = score+1;
-
-        break;
 
 
         case 'skip':
@@ -133,7 +125,7 @@ bot.on('message', msg => {
 
     switch(args[0]){
         case "poll":
-            const pollembed = new RichEmbed()
+            var pollembed = new Discord.MessageEmbed()
             .setColor(0xFFC300)
             .setTitle("Initiate Poll")
             .addField('md!poll', ' to initiate a simple yes or no poll');
