@@ -1,0 +1,23 @@
+{
+  "name": "ascensionbot",
+  "version": "1.0.0",
+  "description": "The official Discord Bot for \"Ascesion\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nolant108/AscensionBot.git"
+  },
+  "author": "Nolant108, Marlin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nolant108/AscensionBot/issues"
+  },
+  "homepage": "https://github.com/nolant108/AscensionBot#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "node.js": "0.0.1-security"
+  }
+}
