@@ -1,4 +1,4 @@
-const {Client, RichEmbed} = require('discord.js')
+const {Client} = require('discord.js')
 const bot = new Client();
 
 bot.login(process.env.token);
@@ -8,4 +8,8 @@ bot.on('ready' , () =>{
 
     bot.user.setActivity('for !help', {type: 'LISTENING'})
     
+})
+
+bot.on('message', msg=>{
+
 })
