@@ -17,7 +17,12 @@
   },
   "homepage": "https://github.com/nolant108/AscensionBot#readme",
   "dependencies": {
+    "async": "^3.2.0",
     "discord.js": "^12.2.0",
-    "node.js": "0.0.1-security"
+    "ffmpeg": "0.0.4",
+    "ffmpeg-static": "^4.2.3",
+    "node.js": "0.0.1-security",
+    "request": "^2.88.2",
+    "ytdl-core": "^2.1.7"
   }
 }
