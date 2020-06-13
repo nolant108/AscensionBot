@@ -9,6 +9,7 @@ const ffmpeg = require("ffmpeg-static");
 var servers = {};
 var connection = {};
 var BotVersion = '0.0.2';
+var score = '10';
 
 bot.on('ready', () =>{
     console.log('Ascension is Online! Bot Version: ' + BotVersion);
