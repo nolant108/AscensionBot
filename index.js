@@ -131,5 +131,26 @@ bot.on('message', msg => {
         break;
     }
 
+    switch(args[0]){
+        case "poll":
+            const pollembed = new RichEmbed()
+            .setColor(0xFFC300)
+            .setTitle("Initiate Poll")
+            .addField('md!poll', ' to initiate a simple yes or no poll');
+
+            if(!args[1]){
+                msg.reply(pollembed)
+            }
+
+            let msgArgs = args.slice(1).join(' ');
+
+            msg.reply(msgArgs).then(messageReaction =>{
+                messageReaction.react("👍");
+                messageReaction.react("👎");
+            })
+
+        break;
+    }
+
 })
 
