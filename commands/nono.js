@@ -1,5 +1,5 @@
-const bot = new Client();
 const {Discord , Client, RichEmbed} = require('discord.js')
+const bot = new Client();
 module.exports = {
 
     
