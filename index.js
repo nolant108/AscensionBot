@@ -35,7 +35,10 @@ bot.on('message', msg=>{
     switch(args[0]){
         case 'nono':
            bot.commands.get('nono').execute(msg, args);
-
+        break;
+        case 'help':
+            bot.commands.get('help').execute(msg, args);
+        break;
         
     }
 
