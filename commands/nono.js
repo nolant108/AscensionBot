@@ -1,8 +1,6 @@
 const {Discord , Client, RichEmbed} = require('discord.js')
 const bot = new Client();
 module.exports = {
-
-    
     name: 'nono',
     description: "Says the creator name",
     execute(msg, args){

@@ -37,6 +37,12 @@ bot.on('message', msg=>{
            bot.commands.get('nono').execute(msg, args);
     }
 
+    switch(args[0]){
+        case 'play':
+           bot.commands.get('musicPlay').execute(msg, args);
+    }
+
+
    
 })
 
