@@ -43,10 +43,10 @@ bot.on('message', msg=>{
             bot.commands.get('play').execute(msg, args);
         break;
         case 'skip':
-            bot.commands.get('skip').execute(msg, args);
+    //        bot.commands.get('skip').execute(msg, args);
         break;
         case 'stop':
-            bot.commands.get('stop').execute(msg, args);
+ //           bot.commands.get('stop').execute(msg, args);
         break;
         
     }
