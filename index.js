@@ -39,6 +39,9 @@ bot.on('message', msg=>{
         case 'help':
             bot.commands.get('help').execute(msg, args);
         break;
+        case 'play':
+            bot.commands.get('play').execute(msg, args);
+        break;
         
     }
 
