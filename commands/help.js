@@ -8,7 +8,7 @@ module.exports = {
         const helpEmbed = new RichEmbed()           
         .setColor('RANDOM')
         .setTitle('Ascension Help')
-        .addField('Future Home', 'of Help')
+        .addField('Music', '!play (YT Link), !skip, !stop')
 
        msg.reply(helpEmbed)
 

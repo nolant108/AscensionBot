@@ -24,6 +24,9 @@ module.exports = {
         if(server.dispatcher) server.dispatcher.end();
         msg.channel.send('⏩, Skipping the song!');
         score = score+1;
+
+        
+
         break;
 
         }
