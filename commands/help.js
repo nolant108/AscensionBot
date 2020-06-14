@@ -6,7 +6,7 @@ module.exports = {
     execute(msg, args){
 
         const helpEmbed = new RichEmbed()           
-        .setColor('R%ANDOM')
+        .setColor('RANDOM')
         .setTitle('Ascension Help')
         .addField('Future Home', 'of Help')
 
