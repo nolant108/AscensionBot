@@ -1,4 +1,4 @@
-const {Discord , Client, MessageEmbed, Collection, RichEmbed} = require('discord.js')
+const {Discord , Client, MessageEmbed, Collection, RichEmbed, execute} = require('discord.js')
 const bot = new Client();
 const request = require('request');
 const async = require('async');
@@ -35,9 +35,7 @@ bot.on('message', msg=>{
     switch(args[0]){
         case 'nono':
            bot.commands.get('nono').execute(msg, args);
-    }
 
-    switch(args[0]){
         case 'play':
            bot.commands.get('musicPlay').execute(msg, args);
     }
