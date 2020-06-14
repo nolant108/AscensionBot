@@ -16,7 +16,6 @@ module.exports = {
     description: "Plays rthe music from start",
     execute(msg, args){
 
-        let args = msg.content.substring(PREFIX.length).split(' ')
         
         switch(args[0]){
 
