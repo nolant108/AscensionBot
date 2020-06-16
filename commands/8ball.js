@@ -1,5 +1,4 @@
 const Discord = require("discord.js");
-const PREFIX = "!";
 
 module.exports = {
     name: '8ball',
